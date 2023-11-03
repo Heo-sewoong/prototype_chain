@@ -1,10 +1,10 @@
 # prototype_chain
 
-/* 생성자 함수
+생성자 함수
 1. 함수의 이름의 첫 글자는 대문자로 시작합니다.
 2. 반드시 new 연산자와 붙여 실행합니다.
-*/
-/* 
+
+   
 인스턴스 : 생성자 함수로 생성되는 객체 데이터를 가리키는 용어
 위의 상황에서는 person1, person2, person3, person4, person5가 인스턴라고 불린다.
 
@@ -27,4 +27,4 @@ Person.prototype.constructor == person1.__proto_.constructor
 말하자면 person1.__proto__constructor === person1.constructor 가 같다는 것이다.
 
 다만 내부 this 키워가 바인딩 되는 점이 있다. 
-*/
+
